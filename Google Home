@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <style>
+        h1 {
+            text-align: center;
+            color: blueviolet;
+            /* font-family: 'Noto Sans', sans-serif; */
+            font-size: 7rem;
+        }
+        p{
+            text-align: center;
+        }
+
+
+        .logo {
+            color: red;
+        }
+
+        .logo1 {
+            color: green;
+        }
+
+        .logo2 {
+            color: green;
+        }
+
+        #logo {
+            color: yellowgreen;
+        }
+
+        a {
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>G<span class="logo">o</span><span id="logo">o</span><span>g</span><span class="logo1">l</span><span
+            class="logo">e</span>
+    </h1>
+    <p><input type="serach" placeholder="Enter Your Search"></p>
+    <p>
+    <span>
+        <input type="submit" name="Search Now" value="Search Now">
+        <input type="submit" name="Search Now" value="I'm Feeling Lucky">
+    </span>
+</p>
+<p>
+        Google offered in:
+    <span>
+    </span><a href="">हिन्दी</a> &nbsp;<a href="">বাংলা</a> &nbsp;<a href="">తెలుగు</a> <a href="">मराठी</a>
+    <a href="">தமிழ்</a> <a href="">ગુજરાતી</a> <a href="">ಕನ್ನಡ</a> <a href="">മലയാളം</a> <a href="">ਪੰਜਾਬੀ</a>
+</p>
+</body>
+
+</html>
